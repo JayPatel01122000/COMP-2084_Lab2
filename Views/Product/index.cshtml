@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Laptops";
+    ViewBag.Title = "Tablets";
+    ViewBag.Title = "Desktops";
+}
+<h1>View the products</h1>
+<li>@Html.ActionLink("Laptops", "Details", "Product", new { product = "Laptops" }, null)</li>
+<li>@Html.ActionLink("Tablets", "Details", "Product", new { product = "Tablets" }, null)</li>
+<li>@Html.ActionLink("Desktops", "Details", "Product", new { product = "Desktops" }, null)</li>
+
